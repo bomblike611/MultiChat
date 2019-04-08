@@ -30,6 +30,9 @@ public class MainChat extends JFrame implements ActionListener{
 	
 	@Override
 	public void actionPerformed(ActionEvent e) {
+		if(jtf.getText().substring(0, 3).equals("/귓:")){
+			
+		}
 		String msg="쥔장: "+jtf.getText()+"\n";
 		jta.append(msg);
 		jtf.setText("");

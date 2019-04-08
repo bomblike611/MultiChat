@@ -59,6 +59,9 @@ public class ChatServer{
 		map.remove(nick);
 	}
 	
+	public void sendEar(String msg,String nick){
+		
+	}
 	
 	
 	public void sendMessage(String msg){
